@@ -34,6 +34,8 @@
 {
     if (self = [super init])
     {
+        self.position = position;
+        
         SKSpriteNode *tip = [SKSpriteNode spriteNodeWithColor:color size:CGSizeMake(25, 25)];
         tip.zRotation = 0.785398163;
         tip.zPosition = 10;
@@ -43,7 +45,7 @@
         _emitter.targetNode = target;
         _emitter.zPosition = 0;
         [tip addChild:_emitter];
-                
+        
         [self setScale:0.5];
     }
     
