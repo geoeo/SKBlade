@@ -16,6 +16,7 @@ Create a new blade
     // Once a new blade is created you can apply your movement logic in touchesMoved or Update
 
 // Optional
+
 Add Physics Properties
 
     // a Blade must be created first 
