@@ -29,8 +29,8 @@ Create a new blade
 Implementation with Physics enabled e.g. 
 
     SKBlade *blade = [[SKBlade alloc] initWithPosition:touchLocation
-                                   TargetNode:self
-                                        Color:[UIColor whiteColor]];
+                                            TargetNode:self
+                                                 Color:[UIColor whiteColor]];
     
     [blade enablePhysicsWithCategoryBitmask:PhysicsCategoryBlade
                          ContactTestBitmask:kNilOptions
