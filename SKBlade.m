@@ -34,6 +34,7 @@
 {
     if (self = [super init])
     {
+        self.name = @"skblade";
         self.position = position;
         
         SKSpriteNode *tip = [SKSpriteNode spriteNodeWithColor:color size:CGSizeMake(25, 25)];
